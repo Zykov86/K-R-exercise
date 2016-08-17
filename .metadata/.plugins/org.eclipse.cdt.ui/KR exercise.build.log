@@ -1,0 +1,15 @@
+16:55:18 **** Incremental Build of configuration Debug for project KR exercise ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E1-2.o "..\\E1-2.c" 
+..\E1-2.c: In function 'main':
+..\E1-2.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "KR exercise.exe" E1-2.o E1-13.o 
+E1-13.o: In function `main':
+C:\Users\Sergey Zykov\Documents\Clang\K-R-exercise\KR exercise\Debug/../E1-13.c:17: multiple definition of `main'
+E1-2.o:C:\Users\Sergey Zykov\Documents\Clang\K-R-exercise\KR exercise\Debug/../E1-2.c:10: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+16:55:19 Build Finished (took 328ms)
+

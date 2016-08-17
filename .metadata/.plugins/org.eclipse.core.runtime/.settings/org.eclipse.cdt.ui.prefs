@@ -1,0 +1,7 @@
+content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000org.eclipse.cdt.ui.parserProposalCategory\u0000
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.add_comments=true
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.cdt.core.cSource.contenttype_context" deleted\="false" description\="basic c template" enabled\="true" name\="main function">/*\r\nFile\: ${file_name}\r\n \r\nAuthor\: ${user}\r\nDate\: ${date}\r\n*/\r\n\r\n\#include &lt;stdio.h&gt;\r\n\r\nint main()\r\n{\r\n    // Your code here.\r\n \r\n    return 0;\r\n}</template></templates>
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

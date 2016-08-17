@@ -1,0 +1,15 @@
+/*
+File: soluton.c
+ 
+Author: Sergey Zykov
+Date: Aug 15, 2016
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    // Your code here.
+ 
+    return 0;
+}
